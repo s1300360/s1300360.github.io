@@ -1,0 +1,29 @@
+GitHub Pages 上線步驟
+====================
+
+1. 前往 https://github.com 建立帳號（已有帳號可略過）。
+2. 建立一個新的 Repository，名稱建議：
+   你的GitHub帳號.github.io
+3. 將本資料夾中的所有檔案上傳到 repository 的最上層：
+   index.html
+   styles.css
+   script.js
+   cv.pdf
+   profile.svg
+   favicon.svg
+   robots.txt
+4. 進入 Repository > Settings > Pages。
+5. 在 Build and deployment 中選擇從 branch 發布，使用 main / root。
+6. 儲存後等待數分鐘，即可由：
+   https://你的GitHub帳號.github.io
+   開啟網站。
+
+更換個人照片
+------------
+目前 profile.svg 是正式風格的姓名縮寫圖。
+若要換成真人照片，請準備直式 4:5 圖片，例如 800 x 1000 px，命名為 profile.jpg。
+接著在 index.html 將 src="profile.svg" 改為 src="profile.jpg" 即可。
+
+自訂網域
+--------
+網站穩定上線後，可再至 GitHub Pages 的 Custom domain 綁定個人網址。

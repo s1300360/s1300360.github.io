@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Han-Yu Lee profile monogram</title>
+  <desc id="desc">Minimal black and white academic profile placeholder with the initials HL.</desc>
+  <rect width="800" height="1000" fill="#f7f7f5"/>
+  <path d="M120 170H680M120 830H680" stroke="#d7d7d3" stroke-width="2"/>
+  <circle cx="400" cy="420" r="170" fill="#ffffff" stroke="#d4d4cf" stroke-width="2"/>
+  <text x="400" y="463" text-anchor="middle" font-family="Georgia,serif" font-size="118" fill="#171717" letter-spacing="8">HL</text>
+  <text x="400" y="725" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" fill="#777777" letter-spacing="5">HAN-YU LEE</text>
+</svg>
