@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;600&family=Noto+Serif+TC:wght@500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=4" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -44,10 +44,6 @@
         <span class="brand-mark">HL</span>
         <span class="brand-text">Han-Yu Lee</span>
       </a>
-      <div class="nav-actions">
-        <button class="language-toggle" id="language-toggle" type="button" aria-label="Switch language">中文</button>
-        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" data-en="Menu" data-zh="選單">Menu</button>
-      </div>
       <nav id="primary-nav" class="nav" aria-label="Primary navigation">
         <a href="#about" data-en="About" data-zh="關於我">About</a>
         <a href="#research" data-en="Research" data-zh="研究">Research</a>
@@ -56,6 +52,10 @@
         <a href="#cv" data-en="CV" data-zh="履歷">CV</a>
         <a href="#contact" data-en="Contact" data-zh="聯絡">Contact</a>
       </nav>
+      <div class="nav-actions">
+        <button class="language-toggle" id="language-toggle" type="button" aria-label="Switch language">中文</button>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" data-en="Menu" data-zh="選單">Menu</button>
+      </div>
     </div>
   </header>
 
@@ -63,7 +63,7 @@
     <section id="top" class="hero container section">
       <div class="hero-copy">
         <p class="eyebrow" data-en="Assistant Professor · Researcher · Educator" data-zh="助理教授 · 研究者 · 教育者">Assistant Professor · Researcher · Educator</p>
-        <h1>Han-Yu Lee<span class="name-zh">李函俞</span></h1>
+        <h1 class="hero-name"><span class="name-en">Han-Yu Lee</span><span class="name-zh">李函俞</span></h1>
         <p class="hero-title" data-en="Assistant Professor, Department of Business Administration, Tamkang University" data-zh="淡江大學企業管理學系 專任助理教授">Assistant Professor, Department of Business Administration, Tamkang University</p>
         <p class="hero-lead" data-en="I study how artificial intelligence and technological change reshape work, careers, leadership, innovation, and organizational adaptation." data-zh="我的研究關注人工智慧與科技變遷如何重塑工作、職涯、領導、創新與組織適應。">I study how artificial intelligence and technological change reshape work, careers, leadership, innovation, and organizational adaptation.</p>
         <div class="hero-actions">
@@ -332,6 +332,6 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=4"></script>
 </body>
 </html>
